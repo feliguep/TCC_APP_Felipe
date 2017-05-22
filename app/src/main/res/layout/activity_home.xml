@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guedes.tcc_app.Home">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:text="Login: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="212dp"
+        android:layout_height="23dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="68dp"
+        android:layout_height="21dp"
+        android:text="Senha:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="211dp"
+        android:layout_height="23dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/entrar_button"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:text="Entrar"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="194dp"
+        android:layout_height="22dp"
+        android:text="Registre sua marca "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/esqueci_senha_button"
+        android:layout_width="162dp"
+        android:layout_height="35dp"
+        android:text="Esqueci a senha "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Não é cadastrado ?"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/cadastro_button"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:text="Cadastra-se"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fez cadastro incompleto?"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/cadastro_in"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:text="Continue "
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

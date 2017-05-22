@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guedes.tcc_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EsqueciSenhaActivity" />
+        <activity android:name=".cadastro_cliente" />
+        <activity android:name=".cadastro_CPF" />
+        <activity android:name=".CadastroCnpjActivity" />
+        <activity android:name=".CadastroComumActivity" />
+        <activity android:name=".ActivityCadastroIncompleto" />
+        <activity android:name=".ActivityDocCPFenvio" />
+        <activity android:name=".Activity_doc_CNPJenvio" />
+        <activity android:name=".ActivityPagamentoMarca" />
+        <activity android:name=".ActivityPedidoRegistro" />
+        <activity android:name=".Activity_NCL_conj" />
+        <activity android:name=".Activity_NCL_subconj37" />
+        <activity android:name=".Activity_resumo_minhas_marcas" />
+        <activity android:name=".ActivityMinhaMarca"></activity>
+    </application>
+
+</manifest>

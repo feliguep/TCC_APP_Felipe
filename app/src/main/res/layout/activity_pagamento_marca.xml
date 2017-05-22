@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guedes.tcc_app.ActivityPagamentoMarca">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número do cartão:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/editTextNumCartao"
+        android:layout_width="208dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagamento "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/editTextNomeCartao"
+        android:layout_width="207dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textViewValidadeCartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validade: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="34dp"
+        android:layout_height="15dp"
+        android:text="CV:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/editTextCV"
+        android:layout_width="113dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banco: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bandeira: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="380dp"
+        android:layout_height="62dp"
+        android:text="Foi Indicado por por um parceiro nosso?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <EditText
+        android:id="@+id/editTextCodigoParceiro"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o código do parceiro: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/button_pagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagar"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBanco"
+        android:layout_width="218dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBandeira"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor: "
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="225dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="87dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAno "
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mês"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ano"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+</android.support.constraint.ConstraintLayout>
